@@ -1,0 +1,1 @@
+# NSCollectionViewArray_test
