@@ -700,11 +700,8 @@
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
                                 <collectionView selectable="YES" allowsMultipleSelection="YES" id="w5P-2G-mIE">
-                                    <rect key="frame" x="0.0" y="0.0" width="438" height="158"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="438" height="318"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
-                                    <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" id="OCf-93-Crq">
-                                        <size key="itemSize" width="50" height="50"/>
-                                    </collectionViewFlowLayout>
                                     <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
                                     <connections>
                                         <binding destination="9sL-oa-d1x" name="content" keyPath="arrangedObjects" id="99r-VD-ncp"/>

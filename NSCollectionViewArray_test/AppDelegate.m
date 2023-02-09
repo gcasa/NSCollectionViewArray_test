@@ -6,6 +6,7 @@
 //
 
 #import "AppDelegate.h"
+#import "MyItem.h"
 
 @interface AppDelegate ()
 
@@ -21,6 +22,7 @@
 
     [self.collectionView registerNib: itemNib
                forItemWithIdentifier: @"MyItem"];
+    self.collectionView.itemPrototype = [[MyItem alloc] init];
     self.arrayController.content = @[@"Test1", @"Test2", @"Test3", @"Test4"];
 }
 
