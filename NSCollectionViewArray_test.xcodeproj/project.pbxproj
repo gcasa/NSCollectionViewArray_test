@@ -11,6 +11,8 @@
 		14A1754C29934D16001DB621 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14A1754B29934D16001DB621 /* Assets.xcassets */; };
 		14A1754F29934D16001DB621 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A1754D29934D16001DB621 /* MainMenu.xib */; };
 		14A1755129934D16001DB621 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A1755029934D16001DB621 /* main.m */; };
+		14A1755B2994E813001DB621 /* MyItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 14A175592994E813001DB621 /* MyItem.m */; };
+		14A1755C2994E813001DB621 /* MyItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14A1755A2994E813001DB621 /* MyItem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,9 @@
 		14A1754E29934D16001DB621 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		14A1755029934D16001DB621 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14A1755229934D16001DB621 /* NSCollectionViewArray_test.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSCollectionViewArray_test.entitlements; sourceTree = "<group>"; };
+		14A175582994E813001DB621 /* MyItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyItem.h; sourceTree = "<group>"; };
+		14A175592994E813001DB621 /* MyItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyItem.m; sourceTree = "<group>"; };
+		14A1755A2994E813001DB621 /* MyItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyItem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,9 @@
 				14A1754D29934D16001DB621 /* MainMenu.xib */,
 				14A1755029934D16001DB621 /* main.m */,
 				14A1755229934D16001DB621 /* NSCollectionViewArray_test.entitlements */,
+				14A175582994E813001DB621 /* MyItem.h */,
+				14A175592994E813001DB621 /* MyItem.m */,
+				14A1755A2994E813001DB621 /* MyItem.xib */,
 			);
 			path = NSCollectionViewArray_test;
 			sourceTree = "<group>";
@@ -122,6 +130,7 @@
 			files = (
 				14A1754C29934D16001DB621 /* Assets.xcassets in Resources */,
 				14A1754F29934D16001DB621 /* MainMenu.xib in Resources */,
+				14A1755C2994E813001DB621 /* MyItem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14A1755B2994E813001DB621 /* MyItem.m in Sources */,
 				14A1755129934D16001DB621 /* main.m in Sources */,
 				14A1754A29934D14001DB621 /* AppDelegate.m in Sources */,
 			);

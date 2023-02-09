@@ -16,6 +16,12 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSBundle *b = [NSBundle mainBundle];
+    NSNib *itemNib = [[NSNib alloc] initWithNibNamed: @"MyItem" bundle: b];
+
+    [self.collectionView registerNib: itemNib
+               forItemWithIdentifier: @"MyItem"];
+    self.arrayController.content = @[@"Test1", @"Test2", @"Test3", @"Test4"];
 }
 
 

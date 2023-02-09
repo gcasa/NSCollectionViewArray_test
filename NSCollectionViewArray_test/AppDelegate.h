@@ -9,6 +9,8 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property IBOutlet NSArrayController *arrayController;
+@property IBOutlet NSCollectionView *collectionView;
 
 @end
 
