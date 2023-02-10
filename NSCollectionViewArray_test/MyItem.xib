@@ -19,7 +19,7 @@
                 <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Top-0d-NPS">
                     <rect key="frame" x="20" y="20" width="88" height="90"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="NSBonjour" id="AUY-yt-TTp"/>
+                    <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="axesIndependently" image="NSColorPanel" id="AUY-yt-TTp"/>
                 </imageView>
             </subviews>
             <point key="canvasLocation" x="-36" y="49"/>
@@ -27,6 +27,6 @@
         <customObject id="TXt-hL-Rem" customClass="MyItem"/>
     </objects>
     <resources>
-        <image name="NSBonjour" width="32" height="32"/>
+        <image name="NSColorPanel" width="32" height="32"/>
     </resources>
 </document>
